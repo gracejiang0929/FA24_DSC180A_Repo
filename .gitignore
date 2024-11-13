@@ -1,3 +1,8 @@
 data/
 __pycache__
 .ipynb_checkpoints
+
+echo '.DS_Store' >> .gitignore
+git rm --cached .DS_Store
+git add .gitignore
+git commit -m "Add .DS_Store to .gitignore and remove from repo"
