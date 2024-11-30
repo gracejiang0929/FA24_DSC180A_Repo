@@ -14,8 +14,7 @@ To get started with the project, follow these steps:
 1. Clone the Repository
    Clone this repository to your local machine using the following command: 
    
-   - `Copy code
-   git clone https://github.com/gracejiang0929/FA24_DSC180A_Repo.git`
+   - `git clone https://github.com/gracejiang0929/FA24_DSC180A_Repo.git`
    - `cd FA24_DSC180A_Repo`
 
 2. Install dependencies: `pip install -r requirements.txt` 
