@@ -22,8 +22,7 @@ To get started with the project, follow these steps:
    ```bash
    pip install -r requirements.txt 
 
-4. Run the project:
+3. Run the project:
    ```bash
    python run.py
    
-
