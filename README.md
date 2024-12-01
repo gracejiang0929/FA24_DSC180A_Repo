@@ -45,7 +45,7 @@ To get started with the project, follow these steps:
    ```bash
    pip install tensorflow
    
-   - If you plan to use the Optimized Preprocessing algorithm:
+  - If you plan to use the Optimized Preprocessing algorithm:
    ```bash
    pip install cvxpy
 
