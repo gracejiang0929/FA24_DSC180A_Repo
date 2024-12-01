@@ -17,7 +17,6 @@ This dataset provides insights into mental and physical health across different 
    - Docker (optional, but recommended)
 
 ## Setup Instructions
-
 To get started with the project, follow these steps:
 
 1. Clone the Repository
@@ -40,14 +39,16 @@ To get started with the project, follow these steps:
    ```bash
    pip install -r requirements.txt
 
+
 4. Additional Dependencies:
    - If you plan to use the Adversarial Debiasing algorithm:
    ```bash
    pip install tensorflow
    
   - If you plan to use the Optimized Preprocessing algorithm:
-   ```bash
-   pip install cvxpy
+  ```bash
+  pip install cvxpy
+  ```
 
 5. Launch Jupyter Notebook:
    ```bash
@@ -58,4 +59,4 @@ To get started with the project, follow these steps:
 
 7. Run the Notebook:
    Execute the cells sequentially to perform bias mitigation analysis.
-   
+
