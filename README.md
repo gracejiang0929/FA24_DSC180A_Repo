@@ -14,11 +14,11 @@ To get started with the project, follow these steps:
 1. Clone the Repository
    Clone this repository to your local machine using the following command: 
    
-   - `git clone https://github.com/gracejiang0929/FA24_DSC180A_Repo.git`
-   - `cd FA24_DSC180A_Repo`
+   - ```bash git clone https://github.com/gracejiang0929/FA24_DSC180A_Repo.git
+   - ```bash cd FA24_DSC180A_Repo
 
-2. Install dependencies: `pip install -r requirements.txt` 
+2. Install dependencies: ```bashpip install -r requirements.txt 
 
-3. Run the project: `python run.py`
+3. Run the project: ```bashpython run.py
    
 
