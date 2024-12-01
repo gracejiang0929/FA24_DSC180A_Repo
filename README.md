@@ -42,13 +42,13 @@ To get started with the project, follow these steps:
 
 4. Additional Dependencies:
    - If you plan to use the Adversarial Debiasing algorithm:
-   ```bash
-   pip install tensorflow
-   
+     ```bash
+     pip install tensorflow
+     ```
   - If you plan to use the Optimized Preprocessing algorithm:
-  ```bash
-  pip install cvxpy
-  ```
+     ```bash
+      pip install cvxpy
+      ```
 
 5. Launch Jupyter Notebook:
    ```bash
