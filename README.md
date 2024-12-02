@@ -65,8 +65,8 @@ If you'd like to run the project directly on your local machine:
      ```
    - If you plan to use the Optimized Preprocessing algorithm:
      ```bash
-      pip install cvxpy
-      ```
+     pip install cvxpy
+     ```
 5. Launch Jupyter Notebook:
    ```bash
    jupyter notebook
