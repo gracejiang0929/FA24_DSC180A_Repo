@@ -1,8 +1,6 @@
+__pycache__/
+*.pyc
+*.pyo
+*.ipynb_checkpoints
 data/
-__pycache__
-.ipynb_checkpoints
 
-.Rhistory
-.gitattributes
-.DS_Store
-.DS_Store.orig

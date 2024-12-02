@@ -1,0 +1,8 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+jupyter
+aif360
+tensorflow>=2.0    # For Adversarial Debiasing (if used)
+cvxpy              # For Optimized Preprocessing (if used)
