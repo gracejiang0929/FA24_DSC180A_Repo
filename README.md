@@ -7,7 +7,36 @@ This dataset provides insights into mental and physical health across different 
 - Packages: Python 3.6+, `aif360`, `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `tensorflow (if using Adversarial Debiasing)`, `cvxpy (if using Optimized Preprocessing)`, `Docker (optional, but recommended)`
 
 ## Setup Instructions
-To get started with the project, follow these steps:
+You can set up the project using either a pre-built Docker image or by running the code directly on your local machine.
+
+## Option 1: Using the Pre-Built Docker Image
+To simplify the setup process, you can use the pre-built Docker image available in the GitHub Container Registry.
+
+1. **Pull the Pre-Built Docker Image:**
+   ```bash
+   docker pull ghcr.io/gracejiang0929/ridehailing-bias-image:latest
+
+2. **Run the Docker Container:**
+   ```bash
+   docker run -it --rm -v $(pwd):/app ghcr.io/gracejiang0929/ridehailing-bias-image:latest
+
+- This command:
+   - Starts the container.
+   - Mounts your current project directory ($(pwd)) to the /app directory in the container.
+   - Automatically removes the container after it stops (--rm).
+
+3. **Run the Project Inside the Container:** Once the container is running, you can execute scripts inside it. For example:
+   ```bash
+   python run.py
+   
+4. **Start Jupyter Notebook (if needed):**
+   ```bash
+   jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+
+Access it in your browser at http://localhost:8888.
+
+## Option 2: Build and Run Locally
+If you'd like to run the project directly on your local machine:
 
 1. Clone the Repository
    Clone this repository to your local machine using the following command: 
@@ -48,3 +77,16 @@ To get started with the project, follow these steps:
 7. Run the Notebook:
    Execute the cells sequentially to perform bias mitigation analysis.
 
+
+## Running the Notebook
+1. Start Jupyter Notebook: If you're running the project locally or inside Docker, start Jupyter Notebook:
+   ```bash
+   jupyter notebook
+
+2. Open `pt3-bias-mitigation.ipynb`:
+- Navigate to the file `pt3-bias-mitigation.ipynb` in the Jupyter interface and open it.
+
+3. Execute Cells Sequentially:
+- Run each cell step by step by pressing `Shift + Enter`. Follow the outputs to perform bias mitigation analysis.
+
+   
