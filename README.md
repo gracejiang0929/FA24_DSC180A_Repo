@@ -14,6 +14,16 @@ The file `h181.csv` is required to run the project but is too large to include i
 
 You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4AJVGqvzLJsFhBZky7f/view?usp=drive_link] and place it in the `data/raw/` directory, or you can generate it using the `generate_data.py` script by running:
 
+## Steps to Generate `h181.csv`
+
+1. Ensure that you have Python and the necessary libraries (`pandas` and `numpy`) installed. You can install them by running:
+   ```bash
+   pip install pandas numpy
+
+2. Run the following command to generate the h181.csv file in the data/raw/ directory:
+   ```bash
+   python scripts/generate_data.py
+
 
 ## Option 1: Using the Pre-Built Docker Image
 To simplify the setup process, you can use the pre-built Docker image available in the GitHub Container Registry.
