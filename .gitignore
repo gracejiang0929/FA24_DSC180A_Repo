@@ -3,6 +3,7 @@ __pycache__/
 *.pyo
 *.ipynb_checkpoints
 data/
+*.csv
 .DS_Store
 .Rhistory
 .gitattributes
