@@ -24,7 +24,6 @@ You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4A
    ```bash
    python scripts/generate_data.py
 
-
 ## Option 1: Using the Pre-Built Docker Image
 To simplify the setup process, you can use the pre-built Docker image available in the GitHub Container Registry.
 
