@@ -9,33 +9,7 @@ This dataset provides insights into mental and physical health across different 
 ## Setup Instructions
 You can set up the project using either a pre-built Docker image or by running the code directly on your local machine.
 
-## Option 1: Using the Pre-Built Docker Image
-To simplify the setup process, you can use the pre-built Docker image available in the GitHub Container Registry.
-
-1. **Pull the Pre-Built Docker Image:**
-   ```bash
-   docker pull ghcr.io/gracejiang0929/ridehailing-bias-image:latest
-
-2. **Run the Docker Container:**
-   ```bash
-   docker run -it --rm -v $(pwd):/app ghcr.io/gracejiang0929/ridehailing-bias-image:latest
-
-- This command:
-   - Starts the container.
-   - Mounts your current project directory ($(pwd)) to the /app directory in the container.
-   - Automatically removes the container after it stops (--rm).
-
-3. **Run the Project Inside the Container:** Once the container is running, you can execute scripts inside it. For example:
-   ```bash
-   python run.py
-   
-4. **Start Jupyter Notebook (if needed):**
-   ```bash
-   jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root
-
-Access it in your browser at http://localhost:8888.
-
-## Option 2: Build and Run Locally
+## Build and Run Locally
 If you'd like to run the project directly on your local machine:
 
 1. Clone the Repository
@@ -62,16 +36,7 @@ If you'd like to run the project directly on your local machine:
    ```bash
    pip install -r requirements.txt
 
-4. Additional Dependencies:
-   - If you plan to use the Adversarial Debiasing algorithm:
-     ```bash
-     pip install tensorflow
-     ```
-   - If you plan to use the Optimized Preprocessing algorithm:
-     ```bash
-     pip install cvxpy
-     ```
-5. Launch Jupyter Notebook:
+4. Launch Jupyter Notebook:
    ```bash
    jupyter notebook
 
@@ -86,6 +51,20 @@ The file `h181.csv` is required to run the project but is too large to include i
 
 You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4AJVGqvzLJsFhBZky7f/view?usp=drive_link] and place it in the `data/raw/` directory.
 
+In order to run Section 3. Model Development without Debiasing, you need to follow below steps:
+
+1. Install R:
+- If you don't have R installed, you can download it from CRAN.
+- If you're using macOS, you can install R using Homebrew:
+   ```bash
+   brew install R
+2. Run the `generate_data.R` Script:
+- Navigate to the directory where the script is located (aif360/data/raw/meps).
+- Run the following command to execute the R script:
+   ```bash 
+   Rscript generate_data.R
+- This script will download the necessary data files, extract them, and save them as CSV files (including `h181.csv`).
+
 ## Running the Notebook
 1. Start Jupyter Notebook: If you're running the project locally or inside Docker, start Jupyter Notebook:
    ```bash
@@ -96,5 +75,3 @@ You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4A
 
 3. Execute Cells Sequentially:
 - Run each cell step by step by pressing `Shift + Enter`. Follow the outputs to perform bias mitigation analysis.
-
-   
