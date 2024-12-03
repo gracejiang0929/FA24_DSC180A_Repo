@@ -9,21 +9,6 @@ This dataset provides insights into mental and physical health across different 
 ## Setup Instructions
 You can set up the project using either a pre-built Docker image or by running the code directly on your local machine.
 
-## Data Setup
-The file `h181.csv` is required to run the project but is too large to include in the repository.
-
-You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4AJVGqvzLJsFhBZky7f/view?usp=drive_link] and place it in the `data/raw/` directory, or you can generate it using the `generate_data.py` script by running:
-
-## Steps to Generate `h181.csv`
-
-1. Ensure that you have Python and the necessary libraries (`pandas` and `numpy`) installed. You can install them by running:
-   ```bash
-   pip install pandas numpy
-
-2. Run the following command to generate the h181.csv file in the data/raw/ directory:
-   ```bash
-   python scripts/generate_data.py
-
 ## Option 1: Using the Pre-Built Docker Image
 To simplify the setup process, you can use the pre-built Docker image available in the GitHub Container Registry.
 
@@ -63,11 +48,15 @@ If you'd like to run the project directly on your local machine:
 2. Create a Virtual Environment (Optional but Recommended):
    ```bash
    python -m venv venv
-   # Activate the virtual environment:
-   # On Windows
-   venv\Scripts\activate
-   # On macOS/Linux
-   source venv/bin/activate
+   
+- Activate the Virtual Environment:
+   - On macOS/Linux:
+     ```bash
+     source venv/bin/activate
+
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
 
 3. Install Dependencies:
    ```bash
@@ -92,6 +81,20 @@ If you'd like to run the project directly on your local machine:
 7. Run the Notebook:
    Execute the cells sequentially to perform bias mitigation analysis.
 
+## Data Setup
+The file `h181.csv` is required to run the project but is too large to include in the repository.
+
+You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4AJVGqvzLJsFhBZky7f/view?usp=drive_link] and place it in the `data/raw/` directory, or you can generate it using the `generate_data.py` script by running:
+
+## Steps to Generate `h181.csv`
+
+1. Ensure that you have Python and the necessary libraries (`pandas` and `numpy`) installed. You can install them by running:
+   ```bash
+   pip install pandas numpy
+
+2. Run the following command to generate the h181.csv file in the data/raw/ directory:
+   ```bash
+   python scripts/generate_data.py
 
 ## Running the Notebook
 1. Start Jupyter Notebook: If you're running the project locally or inside Docker, start Jupyter Notebook:
