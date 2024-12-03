@@ -9,6 +9,12 @@ This dataset provides insights into mental and physical health across different 
 ## Setup Instructions
 You can set up the project using either a pre-built Docker image or by running the code directly on your local machine.
 
+## Data Setup
+The file `h181.csv` is required to run the project but is too large to include in the repository.
+
+You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4AJVGqvzLJsFhBZky7f/view?usp=drive_link] and place it in the `data/raw/` directory, or you can generate it using the `generate_data.py` script by running:
+
+
 ## Option 1: Using the Pre-Built Docker Image
 To simplify the setup process, you can use the pre-built Docker image available in the GitHub Container Registry.
 
