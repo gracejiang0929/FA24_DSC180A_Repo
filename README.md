@@ -84,17 +84,7 @@ If you'd like to run the project directly on your local machine:
 ## Data Setup
 The file `h181.csv` is required to run the project but is too large to include in the repository.
 
-You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4AJVGqvzLJsFhBZky7f/view?usp=drive_link] and place it in the `data/raw/` directory, or you can generate it using the `generate_data.py` script by running:
-
-## Steps to Generate `h181.csv`
-
-1. Ensure that you have Python and the necessary libraries (`pandas` and `numpy`) installed. You can install them by running:
-   ```bash
-   pip install pandas numpy
-
-2. Run the following command to generate the h181.csv file in the data/raw/ directory:
-   ```bash
-   python scripts/generate_data.py
+You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4AJVGqvzLJsFhBZky7f/view?usp=drive_link] and place it in the `data/raw/` directory.
 
 ## Running the Notebook
 1. Start Jupyter Notebook: If you're running the project locally or inside Docker, start Jupyter Notebook:
