@@ -4,7 +4,7 @@
 This dataset provides insights into mental and physical health across different ages. By analyzing the results, we can better target specific groups based on their health scores. For example, if there is a correlation between age/demographics and physical health, we can focus efforts on improving decisions for those groups. This could lead to more efficient resource allocation, like reducing wait times. However, errors in the data/models could have significant real-world impacts, affecting patients, providers, insurers, and policymakers. It is crucial the predictions are accurate to properly direct resources and support.
 
 ## Requirements
-- Packages: Python 3.6+, `aif360`, `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `tensorflow (if using Adversarial Debiasing)`, `cvxpy (if using Optimized Preprocessing)`, `Docker (optional, but recommended)`
+- Packages: Python 3.6+, `aif360`, `numpy`, `pandas`, `scikit-learn`, `matplotlib`
 
 ## Setup Instructions
 You can set up the project using either a pre-built Docker image or by running the code directly on your local machine.
