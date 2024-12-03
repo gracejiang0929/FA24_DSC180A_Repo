@@ -6,4 +6,4 @@ __pycache__/
 # *.csv
 .DS_Store
 .Rhistory
-.gitattributes
+# .gitattributes
