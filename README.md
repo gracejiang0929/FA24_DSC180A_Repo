@@ -59,7 +59,7 @@ You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4A
       ```bash
       brew install R
 2. Run the `generate_data.py` Script:
-   - Navigate to the fold scripts where the script is located (cd venv/lib/python3.11/sit-packages/aif360/data/raw/meps).
+   - Navigate to the fold scripts where the script is located (cd venv/lib/python3.11/site-packages/aif360/data/raw/meps).
    - Run the following command to execute the R script:
       ```bash 
       Rscript generate_data.R
