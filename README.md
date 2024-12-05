@@ -51,7 +51,7 @@ The file `h181.csv` is required to run the project but is too large to include i
 
 You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4AJVGqvzLJsFhBZky7f/view?usp=drive_link] and place it in the `data/raw/` directory.
 
-*IMPORTANT* **In order to run Section 3. Model Development without Debiasing, you need to follow below steps:**
+***IMPORTANT*** **In order to run Section 3. Model Development without Debiasing, you need to follow below steps:**
 
 1. Install R:
    - If you don't have R installed, you can download it from CRAN.
@@ -59,10 +59,10 @@ You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4A
       ```bash
       brew install R
 2. Run the `generate_data.py` Script:
-   - Navigate to the fold scripts where the script is located (cd scripts).
+   - Navigate to the fold scripts where the script is located (cd venv/lib/python3.11/sit-packages/aif360/data/raw/meps).
    - Run the following command to execute the R script:
       ```bash 
-      Rscript generate_data.py
+      Rscript generate_data.R
    - This script will download the necessary data files, extract them, and save them as CSV files (including `h181.csv`).
 
 ## Running the Notebook
