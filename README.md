@@ -71,7 +71,7 @@ You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4A
    jupyter notebook
 
 2. Open `final_notebook.ipynb`:
-- Navigate to the file `final_notebook.ipynb.ipynb` in the Jupyter interface and open it.
+- Navigate to the file `final_notebook.ipynb` in the Jupyter interface and open it.
 
 3. Execute Cells Sequentially:
 - Run each cell step by step by pressing `Shift + Enter`. Follow the outputs to perform bias mitigation analysis.
