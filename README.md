@@ -58,11 +58,11 @@ You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4A
    - If you're using macOS, you can install R using Homebrew:
       ```bash
       brew install R
-2. Run the `generate_data.R` Script:
-   - Navigate to the directory where the script is located (aif360/data/raw/meps).
+2. Run the `generate_data.py` Script:
+   - Navigate to the fold scripts where the script is located (cd scripts).
    - Run the following command to execute the R script:
       ```bash 
-      Rscript generate_data.R
+      Rscript generate_data.py
    - This script will download the necessary data files, extract them, and save them as CSV files (including `h181.csv`).
 
 ## Running the Notebook
