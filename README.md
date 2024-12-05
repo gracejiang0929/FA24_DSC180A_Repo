@@ -40,10 +40,10 @@ If you'd like to run the project directly on your local machine:
    ```bash
    jupyter notebook
 
-6. Open the Notebook:
-   In the Jupyter interface, navigate to `pt3-bias-mitigation.ipynb` and open it.
+5. Open the Notebook:
+   In the Jupyter interface, navigate to `final_notebook.ipynb` and open it.
 
-7. Run the Notebook:
+6. Run the Notebook:
    Execute the cells sequentially to perform bias mitigation analysis.
 
 ## Data Setup
